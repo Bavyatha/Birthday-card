@@ -1,0 +1,89 @@
+
+.photo{
+    width:200px;
+    border-radius: 50%;
+    font-weight: bolder;
+    border:8px solid rgb(56, 4, 75);
+}
+body{
+    font-family: "Happy Monkey", system-ui;
+    background:linear-gradient( rgb(154, 90, 197),rgb(242, 201, 234));
+    color:whitesmoke;
+    text-align: center;
+    
+    
+}
+h1,h4,h3,p{
+    text-shadow:0 0 2px black;
+}
+#AGE{
+    background:rgb(56, 4, 75);
+    padding: 10px;
+    border-radius: 8px;
+    border:none;
+    margin:12px 0 10px 0;
+}
+#DATE{
+    background:rgb(56, 4, 75);
+    padding:  8px 10px;
+    border-radius: 6px;
+    border:none;
+   
+}
+#main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.giftwrap{
+    background-image: url("gift-box-cover.webp");
+    width:400px;
+    height:400px;
+    border:3px solid whitesmoke;
+    border-radius:12px;
+    background-size: cover;
+    margin:0 auto;
+    
+}
+.gift-section {
+    margin-top:20px;
+}
+.gift1{
+    margin-top: 20px;
+}
+.giftwrap:hover {
+    background-image: url("bday.gif");
+}
+.awesome{
+    background-image: url("gift-box-cover.webp");
+    width:400px;
+    height:400px;
+    border:3px solid whitesmoke;
+    border-radius:12px;
+    background-size: cover;
+    margin:20px auto;
+    
+}
+.awesome:hover{
+    background-image:url("https://media.tenor.com/yarlDrz5Ad8AAAAM/robert-downey-jr-lip-biting.gif")
+}
+#stark:hover{
+    background-image:url("https://i.pinimg.com/originals/b5/21/f4/b521f493e286681498f1575c9422842a.gif")
+}
+#genius{
+    height:285px;
+}
+#genius:hover{
+    background-image: url("https://d.wattpad.com/story_parts/153019505/images/15c2718a2a8dab6d654041815683.gif");
+}
+#kiss:hover{
+    background-image: url("https://www.reactiongifs.com/r/2013/06/tony-stark-blows-kisses.gif");
+}
+.footer{
+    margin:0 auto 25px;
+    font-style: italic;
+}
+a{
+    color:whitesmoke;
+}
